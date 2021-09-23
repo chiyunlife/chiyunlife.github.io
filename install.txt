@@ -1,8 +1,0 @@
-sudo npm install -g hexo-cli 
-npm install hexo -g
-npm install hexo-deployer-git --save
-npm install -save hexo-helper-live2d
-
-blog:
-https://www.cxybb.com/article/as480133937/100138838
-
