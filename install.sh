@@ -1,9 +1,10 @@
 sudo npm install -g hexo-cli 
 npm install hexo -g
 npm install hexo-deployer-git --save
-npm install -save hexo-helper-live2d
+npm install --save hexo-helper-live2d
 npm install hexo-wordcount --save
 npm install hexo-generator-searchdb -save
+npm install hexo-symbols-count-time --save
 git clone https://github.com/theme-next/hexo-theme-next themes/next
 
 #blog:
