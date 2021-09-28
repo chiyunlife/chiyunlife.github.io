@@ -7,6 +7,9 @@ npm install hexo-generator-searchdb -save
 npm install hexo-symbols-count-time --save
 git clone https://github.com/theme-next/hexo-theme-next themes/next
 
+mkdir themes/next/source/uploads
+cp asserts/avatar.jpeg themes/next/source/uploads/
+
 #blog:
 #https://www.cxybb.com/article/as480133937/100138838
 #https://kalialbert.github.io/article/107153072.html
