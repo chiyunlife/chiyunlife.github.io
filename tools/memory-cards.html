@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>记忆卡片 · 小工具</title>
+  <link rel="stylesheet" href="../css/style.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+SC:wght@400;500;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+  <div class="page tool-page mc-page">
+    <nav class="mc-nav">
+      <a href="../index.html" class="back-link" id="link-back">← 返回小工具列表</a>
+      <button type="button" class="back-link mc-back-inner hidden" id="btn-inner-back">← 返回</button>
+    </nav>
+
+    <!-- 首页：学习 / 考试 -->
+    <div class="mc-view" id="view-home">
+      <div class="mc-home-buttons">
+        <button type="button" class="mc-home-btn mc-home-study" id="btn-study">学习</button>
+        <button type="button" class="mc-home-btn mc-home-test" id="btn-test">考试</button>
+      </div>
+    </div>
+
+    <!-- 选择书 -->
+    <div class="mc-view hidden" id="view-books">
+      <h2 class="mc-view-title">选择书</h2>
+      <ul class="mc-list" id="list-books"></ul>
+    </div>
+
+    <!-- 选择类别（专辑） -->
+    <div class="mc-view hidden" id="view-albums">
+      <h2 class="mc-view-title">选择类别</h2>
+      <ul class="mc-list mc-list-albums" id="list-albums"></ul>
+    </div>
+
+    <!-- 卡片学习/考试 -->
+    <div class="mc-view hidden" id="view-play">
+      <div class="mc-play-card" id="play-card">
+        <div class="mc-play-word" id="play-word"></div>
+        <div class="mc-play-meaning" id="play-meaning"></div>
+        <div class="mc-play-countdown hidden" id="play-countdown"></div>
+      </div>
+      <div class="mc-play-actions">
+        <button type="button" class="btn btn-text" id="btn-cut">斩</button>
+        <button type="button" class="btn btn-text btn-primary" id="btn-next">下一个</button>
+      </div>
+    </div>
+
+    <!-- 完成 -->
+    <div class="mc-view hidden" id="view-done">
+      <div class="mc-done-text" id="done-text">没有了。</div>
+      <button type="button" class="btn btn-primary" id="btn-done-back">返回</button>
+    </div>
+  </div>
+
+  <script src="data/books-data.js"></script>
+  <script src="memory-cards.js"></script>
+</body>
+</html>
