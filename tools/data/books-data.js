@@ -1767,6 +1767,33 @@ window.__MC_BOOKS_RAW__ = [
             "thought [θɔːt] &&& n思考，考虑"
         ],
     }
+},
+{
+	"title": "yueyao",
+	"books" : {
+		"形容词副词 day1" : [
+			"inevitably	/ɪnˈevɪtəbli/  | 不可避免地；必然地	certainly, unavoidably",
+            "increasingly	/ɪnˈkriːsɪŋli/  | 日益；越来越	more and more",
+            "initially	/ɪˈnɪʃəli/  | 最初；开始时	at first, originally",
+            "ironically	/aɪˈrɒnɪkli/  | 讽刺地；出乎意料地	paradoxically, humorously",
+            "literally	/ˈlɪtərəli/  | 字面上；确实	exactly, actually",
+            "logically	/ˈlɒdʒɪkli/  | 逻辑上；合乎逻辑地	rationally, reasonably",
+            "meanwhile	/ˈmiːnwaɪl/  | 在此期间；同时	in the meantime",
+            "notably	/ˈnəʊtəbli/  | 明显地；显著地	significantly, remarkably",
+            "predominantly	/prɪˈdɒmɪnəntli/  | 主要地；占优势地	mostly, chiefly",
+            "previously	/ˈpriːviəsli/  | 以前；先前	earlier, before",
+            "primarily	/praɪˈmerəli/  | 主要地；首先	chiefly, initially",
+            "significantly	/sɪɡˈnɪfɪkəntli/  | 显著地；重要地	notably, considerably",
+            "specifically	/spəˈsɪfɪkli/  | 具体地；明确地	precisely, explicitly",
+            "theoretically	/ˌθɪəˈretɪkli/  | 理论上；假设上	hypothetically, abstractly",
+            "ultimately	/ˈʌltɪmətli/  | 最终；最后	eventually, in the end",
+            "undoubtedly	/ʌnˈdaʊtɪdli/  | 毫无疑问地；肯定地	certainly, without doubt",
+            "unexpectedly	/ˌʌnɪkˈspektɪdli/  | 意外；未预料到地	surprisingly",
+            "universally	/ˌjuːnɪˈvɜːsəli/  | 普遍地；全球性地	globally, widely",
+            "roughly	/ˈrʌfli/  | 大约；粗略地	approximately, roughly",
+            "simply	/ˈsɪmpli/  | 简单地；仅仅	easily, merely",
+		]
+	}
 }
 
 ];
