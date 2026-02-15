@@ -1769,7 +1769,7 @@ window.__MC_BOOKS_RAW__ = [
     }
 },
 {
-	"title": "yueyao",
+	"title": "Hanmeimei",
 	"books" : {
 		"形容词副词 day1" : [
 			"inevitably	/ɪnˈevɪtəbli/  | 不可避免地；必然地	certainly, unavoidably",
