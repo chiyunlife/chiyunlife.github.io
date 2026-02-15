@@ -1,4 +1,4 @@
-window.__MC_BOOKS_RAW__ = 
+window.__MC_BOOKS_RAW__ = [
 {
     "title": "PET",
     "books":
@@ -1767,4 +1767,6 @@ window.__MC_BOOKS_RAW__ =
             "thought [θɔːt] &&& n思考，考虑"
         ],
     }
-};
+}
+
+];
