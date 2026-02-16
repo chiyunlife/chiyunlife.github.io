@@ -37,7 +37,7 @@ git push origin main
 
 1. 在 GitHub 新建仓库，名称为 **chiyunlife.github.io**（用户名.github.io）  
 2. 把 chiyunlifeBlog 目录下的**所有文件**（不含 .git）复制到该仓库根目录  
-3. 在该仓库里执行：`git add .` → `git commit -m "init"` → `git push origin main`  
-4. 在该仓库 **Settings → Pages** 中，Source 选 **Deploy from a branch**，Branch 选 `main`，Folder 选 **/ (root)**  
+3. 在该仓库里执行：`git add .` → `git commit -m "init"` → `git push origin master`  
+4. 在该仓库 **Settings → Pages** 中，Source 选 **Deploy from a branch**，Branch 选 `master`，Folder 选 **/ (root)**  
 
 之后访问 `https://chiyunlife.github.io` 即可。

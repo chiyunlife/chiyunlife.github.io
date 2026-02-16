@@ -71,7 +71,7 @@ npx serve . -l 4000
 
 ## 3. 将最新改动同步到 chiyunlife.github.io
 
-本站内容部署在 **chiyunlife.github.io** 仓库，根域名 https://chiyunlife.github.io 展示的是该仓库的代码。本仓库（chiyunlifeBlog）与它是两个独立仓库，**只 push 本仓库不会更新线上站**，需要把本仓库的代码推送到 chiyunlife.github.io。
+本站内容部署在 **chiyunlife.github.io** 仓库（使用 **master** 分支），根域名 https://chiyunlife.github.io 展示的是该仓库的代码。本仓库（chiyunlifeBlog）与它是两个独立仓库，**只 push 本仓库不会更新线上站**，需要把本仓库的代码推送到 chiyunlife.github.io 的 master 分支。
 
 ### 首次：添加远程（只需做一次）
 
@@ -89,13 +89,19 @@ git remote add ghpages git@github.com:chiyunlife/chiyunlife.github.io.git
 
 ```bash
 git push origin main        # 推送到 chiyunlifeBlog
-git push ghpages main      # 同步到 chiyunlife.github.io，触发 Pages 更新
+git push ghpages main:master   # 将本仓库 main 推送到 chiyunlife.github.io 的 master 分支，触发 Pages 更新
 ```
 
 或先推本站再推线上：
 
 ```bash
-git push origin main && git push ghpages main
+git push origin main && git push ghpages main:master
+```
+
+若提示被拒绝（remote 有本地没有的提交），且你确认要用当前内容覆盖线上，可强制推送：
+
+```bash
+git push ghpages main:master --force-with-lease
 ```
 
 约 1～2 分钟后访问 https://chiyunlife.github.io 即可看到最新内容。
